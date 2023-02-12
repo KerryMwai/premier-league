@@ -1,0 +1,114 @@
+name: ueableague
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  syncfusion_flutter_calendar: ^20.4.44
+  intl: ^0.18.0
+  provider: ^6.0.5
+  table_calendar: ^3.0.9
+  shimmer: ^2.0.0
+  contained_tab_bar_view_with_custom_page_navigator: ^0.1.3
+  responsive_table: ^0.2.0+2
+  shared_preferences: ^2.0.17
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  get:
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/
+    - assets/league-infor.json
+
+  fonts:
+    - family: Itim
+      fonts:
+        - asset: assets/Itim-Regular.ttf
+
+    - family: oswald
+      fonts:
+        - asset: assets/oswald.ttf
+
+    - family: sarif
+      fonts:
+        - asset: assets/sarif.ttf
+    - family: monteserati
+      fonts:
+        - asset: assets/Montserrat-Italic-VariableFont_wght.ttf
+    - family: monteseratv
+      fonts:
+        - asset: assets/Montserrat-VariableFont_wght.ttf
+    - family: poppinsblack
+      fonts:
+        - asset: assets/Poppins-Black.ttf
+    - family: poppinsblackitalic
+      fonts:
+        - asset: assets/Poppins-BlackItalic.ttf
+    - family: poppinsbold
+      fonts:
+        - asset: assets/Poppins-Bold.ttf
+    - family: poppinsbolditalic
+      fonts:
+        - asset: assets/Poppins-BoldItalic.ttf
+    - family: poppinsextrabold
+      fonts:
+        - asset: assets/Poppins-ExtraBold.ttf
+    - family: poppinsbolditalic
+      fonts:
+        - asset: assets/Poppins-ExtraBoldItalic.ttf
+    - family: poppinsextralight
+      fonts:
+        - asset: assets/Poppins-ExtraLight.ttf
+    - family: poppinsextralightitalic
+      fonts:
+        - asset: assets/Poppins-ExtraLightItalic.ttf
+    - family: poppinsitalic
+      fonts:
+        - asset: assets/Poppins-Italic.ttf
+    - family: poppinnlight
+      fonts:
+        - asset: assets/Poppins-Light.ttf
+    - family: robotoblack
+      fonts:
+        - asset: assets/Roboto-Black.ttf
+    - family: robotoblackitalic
+      fonts:
+        - asset: assets/Roboto-BlackItalic.ttf
+    - family: robotolight
+      fonts:
+        - asset: assets/Roboto-Light.ttf
+    - family: robotolightitalic
+      fonts:
+        - asset: assets/Roboto-BlackItalic.ttf
+    - family: robotothin
+      fonts:
+        - asset: assets/Roboto-Thin.ttf
+    - family: robotoregular
+      fonts:
+        - asset: assets/Roboto-Regular.ttf
+    - family: robotomedium
+      fonts:
+        - asset: assets/Roboto-Medium.ttf
+    - family: robotomediumitalic
+      fonts:
+        - asset: assets/Roboto-MediumItalic.ttf
+    
+  

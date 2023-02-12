@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+const red=Colors.red;
+const green=Colors.green;
+const grey=Colors.grey;
+const black=Colors.black;
+const white=Colors.white;
+const buttonColor1=Colors.blue;
+const buttonColor2=Colors.orange;
+const buttonColor3=Colors.pink;
+const buttonColor4=Color.fromARGB(255, 80, 206, 69);
+const buttonTextColor=Colors.white;
+const tabColor=Color.fromARGB(255, 230, 175, 193);
+const dividercolor=Colors.grey;
